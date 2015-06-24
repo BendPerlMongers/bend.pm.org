@@ -1,0 +1,5 @@
+[%
+  sitename = 'Bend Perl Mongers'
+  description = "Having fun doing stuff with Perl in Bend."
+  keywords = 'bend,oregon,central oregon,perl,perl5,programming,scripting,perl mongers,web development'
+-%]

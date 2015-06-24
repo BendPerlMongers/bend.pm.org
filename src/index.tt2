@@ -1,0 +1,16 @@
+[% page_title = 'Welcome!' -%]
+[% WRAPPER index_wrapper -%]
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h1>Bend Perl Mongers</h1>
+        <p>We're here too!</p> 
+        <p><a class="btn btn-default"
+              href="http://mail.pm.org/mailman/listinfo/bend-pm">Join our mailing list</a></p>
+        <p><a href="irc://irc.perl.org/bend.pm">Chat with us on IRC: #bend.pm on irc.perl.org</a>
+          &mdash; <a href="http://widget01.mibbit.com/?autoConnect=true&server=irc.perl.org&channel=%23bend.pm&nick="
+                  >IRC web client</a></p>
+      </div>
+    </div>
+  </div>
+[%- END -%]
