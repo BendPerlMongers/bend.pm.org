@@ -8,8 +8,9 @@
         <p><a class="btn btn-default"
               href="http://mail.pm.org/mailman/listinfo/bend-pm">Join our mailing list</a></p>
         <p><a href="irc://irc.perl.org/bend.pm">Chat with us on IRC: #bend.pm on irc.perl.org</a>
-          &mdash; <a href="http://widget01.mibbit.com/?autoConnect=true&server=irc.perl.org&channel=%23bend.pm&nick="
-                  >IRC web client</a></p>
+          &mdash;
+            <a href="http://widget01.mibbit.com/?autoConnect=true&amp;server=irc.perl.org&amp;channel=&amp;23bend.pm&amp;nick="
+            >IRC web client</a></p>
       </div>
     </div>
   </div>
