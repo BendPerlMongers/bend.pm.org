@@ -8,7 +8,7 @@
         <p>We're here too!</p> 
         <p><a class="btn btn-default"
               href="http://mail.pm.org/mailman/listinfo/bend-pm">Join our mailing list</a></p>
-        <p><a href="irc://irc.perl.org/bend.pm">Chat with us on IRC: #bend.pm on irc.perl.org</a>
+        <p><a href="irc://irc.perl.org/bend.pm">Chat with us on IRC: <code>#bend.pm</code> on <code>irc.perl.org</code></a>
           &mdash;
             <a href="http://widget01.mibbit.com/?autoConnect=true&amp;server=irc.perl.org&amp;channel=&amp;23bend.pm&amp;nick="
             >IRC web client</a></p>
