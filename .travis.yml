@@ -2,8 +2,8 @@ language: perl
 perl:
   - "5.16"
 
-before_install:
-  - cpanm Template
+install:
+  - cpanm --quiet --installdeps --notest Template
 
 script:
   - bin/build -a
