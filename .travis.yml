@@ -6,7 +6,7 @@ install:
   - cpanm --quiet --installdeps --notest Template
 
 script:
-  - bin/build -a
+  - perlbrew exec ttree -f etc/ttree.cfg -a
 
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash bin/deploy.sh
