@@ -6,7 +6,7 @@ install:
   - cpanm -v --installdeps Template
 
 script:
-  - ls /home/travis/perl5/perlbrew/perls/5.16/bin/perl/
+  - ls /home/travis/perl5/perlbrew/perls/5.16/lib/site_perl/5.16.3/x86_64-linux/
   - ls /home/travis/perl5/perlbrew/perls/5.16/bin/
   - ls /home/travis/perl5/perlbrew/bin/
   - echo $PATH
