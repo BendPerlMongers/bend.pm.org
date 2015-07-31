@@ -3,7 +3,7 @@ perl:
   - "5.16"
 
 install:
-  - cpanm --quiet --installdeps --notest Template
+  - cpanm --installdeps Template
 
 script:
   - ls /home/travis/perl5/perlbrew/perls/5.16/bin/perl/
