@@ -24,10 +24,9 @@ git push upstream HEAD:gh-pages
 ```
 bin/build -a
 cd output
-git pull upstream gh-pages
 git add -A .
 git commit -m "rebuild pages"
-git push upstream HEAD:gh-pages
+git push upstream HEAD:gh-pages  (may need first: git pull upstream gh-pages)
 ```
 
 ## Web Server Setup
