@@ -2,17 +2,13 @@
 
 Install the Template CPAN module.
 
-## To deploy
-
-From within the dotcom directory, run "bin/build -a".
-
-The output directory will have what should go in the web root.
-
 ### Deploy to GitHub Pages
 
 You must be an authorized user on the repository, or else you can send pull requests.
 
+#### First time deploying:
 ```
+bin/build -a
 cd output
 git init
 git remote add upstream git@github.com:BendPerlMongers/bend.pm.org.git
@@ -21,7 +17,17 @@ git reset upstream/gh-pages
 touch .
 git add -A .
 git commit -m "rebuild pages"
-git push -q upstream HEAD:gh-pages
+git push upstream HEAD:gh-pages
+```
+
+#### Subsequent deploys:
+```
+bin/build -a
+cd output
+git pull upstream gh-pages
+git add -A .
+git commit -m "rebuild pages"
+git push upstream HEAD:gh-pages
 ```
 
 ## Web Server Setup
