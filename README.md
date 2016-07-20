@@ -22,11 +22,7 @@ git push upstream HEAD:gh-pages
 
 #### Subsequent deploys:
 ```
-bin/build -a
-cd output
-git add -A .
-git commit -m "rebuild pages"
-git push upstream HEAD:gh-pages  (may need first: git pull upstream gh-pages)
+./bin/deploy.sh
 ```
 
 ## Web Server Setup
